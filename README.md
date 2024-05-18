@@ -54,3 +54,15 @@ sudo install lazygit /usr/local/bin
 
 #### Setup Config
 copy the neovim folder to .config in $HOME directory
+
+
+#### ISSUES
+```
+attempt to index local 'keymap' (a nil value)
+```
+
+```
+sudo add-apt-repository ppa:neovim-ppa/unstable
+sudo apt-get update
+sudo apt-get install neovim
+```
